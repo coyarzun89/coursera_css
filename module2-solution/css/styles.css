@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+}
+
+.row > div {
+  background-color: #999999;
+  border: 1px solid black;
+  margin: 1.66%;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  margin: 30px;
+  font-size: 175%;
+  font-family: 'Georgia', serif;
+} 
+
+.label_pink {
+  float: right;
+  padding: 6px 30px 6px 30px;
+  border-style: solid;
+  border-width: 0px 0px 1px 1px;
+  border-color: black;
+  font-size: 125%;
+  font-family: 'Georgia', serif;
+  background: #d49899;
+}
+
+.label_red {
+  float: right;
+  padding: 6px 30px 6px 30px;
+  border-style: solid;
+  border-width: 0px 0px 1px 1px;
+  border-color: black;
+  font-size: 125%;
+  font-family: 'Georgia', serif;
+  background: #bf4646;
+  color: white;
+}
+
+.label_yellow {
+  float: right;
+  padding: 6px 30px 6px 30px;
+  border-style: solid;
+  border-width: 0px 0px 1px 1px;
+  border-color: black;
+  font-size: 125%;
+  font-family: 'Georgia', serif;
+  background: #e4d09b;
+}
+
+.text {
+  padding: 16px;
+  clear: right;
+  font-family: 'Georgia', serif;
+}
+/** Desktop version **/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    width: 30%;
+  }
+}
+
+
+/** Tablet version **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12{
+    float: left;
+  }
+  
+  .col-md-6 {
+    width: 46.68%;
+  }
+  
+  .col-md-12 {
+    width: 96.66%;
+  }
+}
+
+/** Mobile version **/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 96.66%;
+  }
+}
